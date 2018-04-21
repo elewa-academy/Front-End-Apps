@@ -1,0 +1,483 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4. State & Components · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../5-all-together/" />
+    
+    
+    <link rel="prev" href="../3-building-from-source.md" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Front-End Apps
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../1-frontend-backend/">
+            
+                <a href="../1-frontend-backend/">
+            
+                    
+                    1. Frontend/Backend
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../2-javascript-30/">
+            
+                <a href="../2-javascript-30/">
+            
+                    
+                    2. JavaScript 30
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../3-building-from-source.md">
+            
+                <span>
+            
+                    
+                    3. Build From Source
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    4. State & Components
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../5-all-together/">
+            
+                <a href="../5-all-together/">
+            
+                    
+                    5. All Together
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <a target="_blank" href="https://github.com/elewa-academy/General-Resources/wiki">
+            
+                    
+                    Wiki
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <a target="_blank" href="https://github.com/elewa-academy/Frontend/tree/master">
+            
+                    
+                    Repo
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <a target="_blank" href="https://elewa-academy.github.io">
+            
+                    
+                    Home
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >4. State & Components</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="portfolio-facelift-state--components">Portfolio FaceLift: State &amp; Components</h1>
+<p>Don&apos;t waste your time working on two projects at once - learning from one, and maintaining your portfolio with the other.  In Portfolio FaceLift you&apos;ll kill two birds with one stone by rebuilding your portfolio from scratch using an omega-clean State-Based Architecture.</p>
+<h3 id="index">Index</h3>
+<ul>
+<li><a href="#learning-objectives">Learning Objectives</a></li>
+<li><a href="#requirements">Requirements</a></li>
+<li><a href="#resources">Resources</a></li>
+</ul>
+<hr>
+<h2 id="learning-objectives">Learning Objectives</h2>
+<ul>
+<li>DOM Manipulations</li>
+<li>jQuery</li>
+<li>UI Components</li>
+<li>App = Data + User Interactions</li>
+<li>State = Truth</li>
+<li>CRUD</li>
+<li>State-Based Architecture</li>
+</ul>
+<h3 id="ui-components">UI Components</h3>
+<p>Components are &quot;chunks&quot; of your website that are structurally the same, but with different information connected to them. Your project boxes are a perfect example: they have identical html/css configuration but a different title, image, and hyperlinks.</p>
+<p>We will take this concept to the next level by writing a jQuery method that takes a repo name &amp; image url as arguments and appends a new project component to the end of a &quot;projects&quot; div.</p>
+<h3 id="app--data--user-interactions">App = Data + User Interactions</h3>
+<p>An <em>application</em> is (roughly):</p>
+<blockquote>
+<p>Code that defines &amp; enables user interactions with stored data. </p>
+</blockquote>
+<p>Pretty straight forward after all!  In this project you will be exploring how to build your application to implement clean behavior-flow &amp; protect your data&apos;s integrity using the </p>
+<h3 id="state--truth">State = Truth</h3>
+<p>Your new portfolio will have <em>state</em> (data).  This will be either an object that keeps track of what is currently displayed on your portfolio (ie. the repo name &amp; image url for each featured project).  </p>
+<p>The state should be the final source of truth in your application. There should never be a mismatch between what&apos;s displayed on the screen and what&apos;s stored in your portfolio&apos;s <em>state</em>.  </p>
+<h3 id="create-read-update-delete">Create, Read, Update, Delete</h3>
+<p>These are the elementary operations for accessing and using data.  Your portfolio will allow a user to:</p>
+<ul>
+<li>Create new featured projects</li>
+<li>View all featured projects</li>
+<li>Update the image for a featured project</li>
+<li>Delete a featured project from the DOM</li>
+</ul>
+<h3 id="state-based-architecture">State-Based Architecture</h3>
+<p>Your new portfolio&apos;s architecture is designed to protect the State, and to make sure that the user is always seeing on the screen an accurate representation of what&apos;s stored in State.</p>
+<p>Three simple but <em>sooper</em> important aspect of this design are:</p>
+<ol>
+<li>Only the JS logic can modify the State, triggered by user events</li>
+<li>DOM methods have &quot;Read-Only Access&quot; to the State</li>
+<li>There will be only one DOM method that renders from state, and it will re-render the entire &quot;projects&quot; div every time it is called.  </li>
+</ol>
+<p>These three features together will ensure that the State is only modified when &amp; how it&apos;s supposed to be, that everything in state makes it to the DOM, and that there is never any out-of-date information hanging around in the DOM.</p>
+<p><br></p>
+<p><img src="state-based-architecture.png" alt=""></p>
+<p><a href="#index">TOP</a></p>
+<hr>
+<h2 id="requirements">Requirements</h2>
+<ol>
+<li>Learn some jQuery on FreeCodeCamp, using W3 Schools as a reference.</li>
+<li>Refactor 2-3 of your Organizing Development projects to have a little more interactivity:<ul>
+<li>Develop on a new branch</li>
+<li>Update the README</li>
+<li>Update the gh-pages demo</li>
+</ul>
+</li>
+<li>Plan and develop a new portfolio for your home page:<ul>
+<li>Repo Specs:<ul>
+<li>Branches:<ol>
+<li>Move your old portfolio to a new branch</li>
+<li>Develop your new portfolio on a new branch</li>
+<li>Merge your new portfolio to Master when it&apos;s finished</li>
+</ol>
+</li>
+<li>README<ul>
+<li>About this project</li>
+<li>Present your development planning like before</li>
+<li>Learning notes</li>
+</ul>
+</li>
+<li>Document your code and functionality</li>
+<li>Tests for any pure JS, don&apos;t worry about the jQuery</li>
+<li>Behavioral Specs. A user can ...<ul>
+<li>Change the image for any given project box</li>
+<li>Choose between a couple style options for the whole site</li>
+<li>Add new project components to the portfolio by providing:<ul>
+<li>A valid repo name (ie. one you actually have)</li>
+<li>A valid image url</li>
+</ul>
+</li>
+<li>Delete a project component</li>
+<li>See a pre-selected set of projects on window.onload</li>
+<li>Change the image for an existing project component</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Your source code will have ...<ul>
+<li>A state object containing the info for each project you want displayed on load -&gt; {0: {repo: name, image: url}}. This will have only properties, no methods.</li>
+<li>A file for all user input handlers</li>
+<li>A file for all pure JS logic</li>
+<li>A file for all jQuery that writes to the DOM</li>
+<li>A folder for test cases and test library</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<p>Challenges: A user can ...</p>
+<ul>
+<li>See your existing repositories via the GitHub API</li>
+<li>Filter that list by API-supported criteria</li>
+<li>Star, fork, clone, or watch a project from your portfolio</li>
+<li>Validate repo names when a user tries to create a new component</li>
+</ul>
+<p><a href="#index">TOP</a></p>
+<hr>
+<h2 id="resources">Resources</h2>
+<p>The DOM:</p>
+<ul>
+<li><a href="https://www.w3schools.com/js/js_htmldom.asp" target="_blank">W3 Schools</a></li>
+</ul>
+<p>jQuery:</p>
+<ul>
+<li><a href="https://www.w3schools.com/jquery/default.asp" target="_blank">W3 Schools</a></li>
+<li><a href="https://www.freecodecamp.org/challenges/learn-how-script-tags-and-document-ready-work" target="_blank">FreeCodeCamp</a></li>
+<li>From jQuery:<ul>
+<li><a href="https://learn.jquery.com" target="_blank">Learn jQuery</a></li>
+<li><a href="http://api.jquery.com" target="_blank">The Docs</a></li>
+</ul>
+</li>
+</ul>
+<p>Programming Paradigm:</p>
+<ul>
+<li><a href="https://github.com/elewa-academy/General-Resources/blob/master/programming-resources/programming-and-paradigms/04-event-driven-programming.md" target="_blank">Event-Driven Programming</a></li>
+</ul>
+<p>GitHub API Challenge:</p>
+<ul>
+<li><a href="http://blog.teamtreehouse.com/code-a-simple-github-api-webapp-using-jquery-ajax" target="_blank">Tutorial &amp; Example</a></li>
+<li><a href="http://yonaba.github.io/2012/08/14/List-your-GitHub-projects-using-JavaScript-and-jQuery.md.html" target="_blank">Short Tutorial</a></li>
+<li><a href="https://codepen.io/bvasko/pen/gJxKk" target="_blank">Another Example</a></li>
+<li><a href="https://nihal111.github.io/2017/07/05/github-jquery.html" target="_blank">Make it Prettier </a></li>
+<li><a href="https://gist.github.com/jasonrudolph/6065289" target="_blank">Neat API Searches</a></li>
+</ul>
+<p><a href="#index">TOP</a></p>
+<hr>
+<hr>
+<h3 id=""><a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"></a></h3>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../3-building-from-source.md" class="navigation navigation-prev " aria-label="Previous page: 3. Build From Source">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../5-all-together/" class="navigation navigation-next " aria-label="Next page: 5. All Together">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4. State & Components","level":"1.5","depth":1,"next":{"title":"5. All Together","level":"1.6","depth":1,"path":"5-all-together/README.md","ref":"./5-all-together/README.md","articles":[]},"previous":{"title":"3. Build From Source","level":"1.4","depth":1,"path":"3-building-from-source.md","ref":"./3-building-from-source.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"4-state-components/README.md","mtime":"2018-03-29T11:56:33.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-04-21T19:35:12.449Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
