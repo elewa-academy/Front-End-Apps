@@ -3,7 +3,7 @@
 * [Front-End Apps](README.md)   
 * [1. Frontend/Backend](./1-frontend-backend/README.md)
 * [2. JavaScript 30](./2-javascript-30/README.md)
-* [3. Build From Source](./3-building-from-source.md)
+* [3. Building From Source](./3-building-from-source/README.md)
 * [4. State & Components](./4-state-components/README.md)
 * [5. All Together](./5-all-together/README.md)
 * [Wiki](https://github.com/elewa-academy/General-Resources/wiki)
