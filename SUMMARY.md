@@ -7,7 +7,7 @@
 * [4. State & Components](./4-state-components/README.md)
 * [5. All Together](./5-all-together/README.md)
 * [Wiki](https://github.com/elewa-academy/General-Resources/wiki)
-* [Repo](https://github.com/elewa-academy/Frontend/tree/master)
+* [Repo](https://github.com/elewa-academy/Front-End-Apps)
 * [Home](https://elewa-academy.github.io)
 
 
